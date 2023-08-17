@@ -1,3 +1,3 @@
-# chrome-clone
+# Chrome clone
 
-with Vanilla JS
+Study Vanilla JS!
