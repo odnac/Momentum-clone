@@ -1,3 +1,3 @@
-# Chrome clone
+# Chrome APP - clone
 
 Study Vanilla JS!
