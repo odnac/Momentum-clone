@@ -1,3 +1,3 @@
-# Chrome APP - clone
+# Momentum - clone
 
 Study Vanilla JS!
