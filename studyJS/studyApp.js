@@ -66,3 +66,63 @@ const person = {
 };
 
 person.speakHello("dodo");
+
+const object = {};
+
+function func() {}
+
+const objectName = {
+    funcName: function () {},
+};
+
+objectName.funcName();
+
+const calculatorT = {
+    add: function (a, b) {
+        alert(a + b);
+    },
+    minus: function (a, b) {
+        alert(a - b);
+    },
+    multi: function (a, b) {
+        alert(a * b);
+    },
+    square: function (a, b) {
+        alert(a ** b);
+    },
+};
+
+// calculatorT.add(1, 5);
+// calculatorT.minus(10, 5);
+// calculatorT.multi(10, 5);
+// calculatorT.square(10, 5);
+
+const age = 96;
+function calculateKrAge(ageOfForeigner) {
+    return ageOfForeigner + 2;
+}
+
+const KrAge = calculateKrAge(age);
+
+console.log(KrAge);
+
+// 형변환
+const age1 = parseInt(prompt("how old are you"));
+
+// isNaN() 숫자 판별 함수
+console.log(isNaN(age1));
+
+// if
+if (isNaN(age1) || age1 < 0) {
+    console.log("Please write a positive number");
+} else if (age1 < 18) {
+    console.log("You are too young.");
+} else if (age1 >= 18 && age1 <= 50) {
+    console.log("You can drink");
+} else if (age1 >= 51 && age1 <= 80) {
+    console.log("You should exercise");
+} else {
+    console.log("You can't drink");
+}
+
+// === !==
